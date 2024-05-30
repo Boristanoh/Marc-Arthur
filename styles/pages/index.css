@@ -1,0 +1,79 @@
+@import '../variable.css';
+
+
+
+/* Contenu */
+.accueil{
+    display: flex;
+    height: 100vh;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+   
+}
+.image img{
+    height: 100%;
+ }
+
+.information{
+    margin: auto;
+    padding-left: 4rem;
+    
+}
+.boutton{
+    display: inline-block;
+    background-color:var(--light-yellow); 
+    border-color: var(--light-yellow);
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+    text-decoration: none;
+    
+}
+.information__nom{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    width: fit-content;
+}
+.information__metier{
+    background-color:var(--light-yellow); 
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    margin-bottom: 2rem;
+
+}
+h1{
+    border: 0px;
+    margin: 0rem;
+    width: auto;
+}
+@media (max-width: 1024px){
+    main{
+        margin:auto;
+        
+    }
+   .accueil{
+       flex-direction: column;
+       justify-content: center;
+        align-items: center;
+   }
+   .image{
+   
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: transparent;
+    
+}
+
+.image img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+
+ }
+}

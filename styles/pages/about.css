@@ -1,0 +1,45 @@
+main{
+    margin: 0rem 3rem;
+}
+
+.presentation__bloc img{
+    width: 8rem;
+    height: auto ;
+}
+
+.presentation__bloc{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bloc2{
+    display: flex;
+    gap: 2rem;
+}
+.chiffre{
+    margin-top: 1rem;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.chiffre div{
+    padding: 2rem;
+}
+.chiffre__couleur{
+    color: var(--light-yellow);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px){
+    /* main{
+        background-color: blue;
+    } */
+   .bloc2{
+       flex-direction: column;
+   }
+}

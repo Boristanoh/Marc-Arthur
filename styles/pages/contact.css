@@ -1,0 +1,35 @@
+main{
+    margin: 0rem 3rem;
+}
+
+.bloc__cadre{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    margin-top: 3rem;
+ }
+
+ .merci{
+    text-align: center;
+ }
+
+ .bloc1__cadre--indiv{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+ }
+
+ .bloc1__cadre--indiv img{
+     width: 10rem;
+     height: 10rem;
+ }
+
+ @media (max-width: 1024px){
+    /* main{
+        background-color: blue;
+    } */
+    .bloc__cadre{
+        flex-direction: column;
+    }
+}

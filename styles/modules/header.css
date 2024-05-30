@@ -1,0 +1,48 @@
+
+.image{
+    background-color: blueviolet;
+}
+.image img{
+    height: 12rem;
+    width: 100%;
+}
+header{
+    /* background-color: var(--light-yellow); */
+    background-color: brown;
+    
+    
+    height: 100vh;
+    position: sticky;
+    top: 0%;
+    left: 0px;
+    margin-right: 1.5rem ;
+}
+.navigation{
+    background-color: aqua;
+   
+    padding: 5rem 6rem;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1024px){
+   header{
+    display: none;
+   }
+   main{
+    margin: auto;
+   }
+}

@@ -1,0 +1,15 @@
+.navigation__bloc{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navigation__bloc h3{
+    display: inline-block;
+}
+.navigation__bloc h3:hover{
+    cursor: pointer;
+}

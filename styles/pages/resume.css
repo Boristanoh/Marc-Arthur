@@ -1,0 +1,21 @@
+main{
+    margin: 0rem 3rem;
+}
+.bloc__cadre{
+   display: flex;
+   gap: 1.5rem;
+   flex-direction: row;
+}
+
+hr{
+    margin-top: 2rem;
+}
+
+@media (max-width: 1024px){
+    /* main{
+        background-color: blue;
+    } */
+    .bloc__cadre{
+        flex-direction: column;
+    }
+}
