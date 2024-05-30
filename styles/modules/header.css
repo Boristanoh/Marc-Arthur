@@ -7,8 +7,8 @@
     width: 100%;
 }
 header{
-    /* background-color: var(--light-yellow); */
-    background-color: brown;
+    background-color: var(--light-yellow);
+    /* background-color: brown; */
     
     
     height: 100vh;
@@ -18,7 +18,7 @@ header{
     margin-right: 1.5rem ;
 }
 .navigation{
-    background-color: aqua;
+    /* background-color: aqua; */
    
     padding: 5rem 6rem;
 }

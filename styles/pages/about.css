@@ -43,3 +43,22 @@ main{
        flex-direction: column;
    }
 }
+
+@media (max-width: 768px){
+    /* main{
+        background-color: blue;
+    } */
+    .chiffre div{
+        padding: 1rem;
+    }
+
+    .bloc2{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .presentation__bloc img{
+        width: 4rem;
+        height: auto ;
+    }
+}

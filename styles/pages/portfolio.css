@@ -3,6 +3,7 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    /* background-color: aquamarine; */
   }
 
 .navigation__bloc{
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .navigation__bloc h3{
@@ -19,3 +20,48 @@
 .navigation__bloc h3:hover{
     cursor: pointer;
 }
+img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+
+.bloc1,.bloc2,.bloc3,.bloc4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 15px;
+}
+
+.bloc1{
+    background-color: aqua;
+}
+.bloc2{
+    background-color: blue;
+}
+.bloc3{
+    background-color: blueviolet;
+}
+.bloc4{
+    background-color: brown;
+}
+
+.invisible{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .bloc1,.bloc2,.bloc3,.bloc4{
+        grid-template-columns: 1fr 1fr;
+        gap :15px
+    }
+
+  }
+
+  @media screen and (max-width: 420px){
+    .bloc1,.bloc2,.bloc3,.bloc4{
+        grid-template-columns: 1fr;
+        gap :15px
+    }
+  }

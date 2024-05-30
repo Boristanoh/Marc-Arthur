@@ -137,24 +137,31 @@ h1 {
     padding: 1rem 5rem;
    
     margin: 2rem 1rem 0 0rem;
-    width: 80%;
+    width: 40rem;
+    /* width: 80%; */
     text-align: center;
     /* background:linear-gradient(to bottom left,rgb(0, 141, 54), #00da49); */
     animation: apparait2 1s ease-in-out 50ms both;
     border: 1px #000 solid;
 } 
 @media (max-width: 1024px){
+   main{
+    padding-top: 2rem;
+   }
 
     h1{
-        margin-right:0rem ;
+        
+        margin: auto;
         padding: 1rem 3rem;
+        
     }
 }
 
 @media (max-width: 768px){
   h1{
-      margin-right:0rem ;
+    
       padding: 1rem 1rem;
+      width: 30rem;
   }
 }
 
