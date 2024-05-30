@@ -34,12 +34,13 @@
     --header-font-size:6rem;
     --title-font-size: 2.5rem;
     --title2-font-size: 2rem;
+    --title3-font-size: 1.5rem;
     
     
     --body-line-height: 1.7rem;
     --body-highlight-line-height: 1.5rem;
     --header-line-height: 6rem;
-    --title-line-height: 1.75rem;
+    --title-line-height: 1rem;
 
     --breakpoint-first : 1024px;
 }
@@ -95,10 +96,7 @@ body {
     line-height: var(--body-line-height);
     color: var(--black);
 }
-h3{
-    font-size: var(--title2-font-size);
-    line-height: 2rem;
-}
+
 /* 
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Grape Nuts', cursive;
@@ -128,7 +126,7 @@ p{
   }
 
 h1 {
-    font-family: var(--header-font);
+    font-family: var(--important-font);
     font-style: normal;
     font-weight: var(--header-font-weight);
     font-size: var(--header-font-size);
@@ -144,6 +142,27 @@ h1 {
     animation: apparait2 1s ease-in-out 50ms both;
     border: 1px #000 solid;
 } 
+
+h2 {
+    
+  font-style: normal;
+  font-weight: var(--title2-font-weight);
+  font-size: var(--title2-font-size);
+  line-height: var(--title-line-height);
+  color: var(--black);
+  line-height: 2.5rem;
+  margin: 2rem 0rem 2rem 0rem;
+  /* text-decoration: underline var(--green-highlight); */
+  /* border-left: 1rem var(--green-highlight) solid ; */
+  padding-left: 0.25rem;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+} 
+
+h3{
+  font-size: var(--title3-font-size);
+  line-height: 1.5rem;
+}
 @media (max-width: 1024px){
    main{
     padding-top: 2rem;
@@ -180,19 +199,5 @@ h1 {
   
 }
 
-h2 {
-    
-    font-style: normal;
-    font-weight: var(--title2-font-weight);
-    font-size: var(--title2-font-size);
-    line-height: var(--title-line-height);
-    color: var(--black);
-    line-height: 2.5rem;
-    margin: 2rem 0rem 2rem 0rem;
-    /* text-decoration: underline var(--green-highlight); */
-    /* border-left: 1rem var(--green-highlight) solid ; */
-    padding-left: 0.25rem;
-    text-underline-offset: 0.25rem;
-    text-decoration-thickness: 0.188rem;
-} 
+
 

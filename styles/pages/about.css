@@ -3,14 +3,26 @@ main{
 }
 
 .presentation__bloc img{
-    width: 8rem;
-    height: auto ;
+    width: 6rem;
+    height: fit-content ;
 }
+.texte{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+h2{
+    margin-bottom: 1rem;
+}
+
 
 .presentation__bloc{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+.presentation__element{
+    height: fit-content;
 }
 
 .bloc2{
@@ -42,6 +54,9 @@ main{
    .bloc2{
        flex-direction: column;
    }
+   .chiffre__couleur{
+    font-size: 3rem;
+}
 }
 
 @media (max-width: 768px){
@@ -60,5 +75,8 @@ main{
     .presentation__bloc img{
         width: 4rem;
         height: auto ;
+    }
+    .chiffre__couleur{
+        font-size: 2rem;
     }
 }
