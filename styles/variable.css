@@ -5,7 +5,7 @@
     /* Colors */
     --green-highlight: aquamarine;
     --light-blue: cadetblue;
-    --light-yellow: yellow;
+    --light-yellow: purple;
     --light-grey: #F3F3F3;
     --black: #000000;
     --white: #FFFFFF;
@@ -150,7 +150,6 @@ h2 {
   font-size: var(--title2-font-size);
   line-height: var(--title-line-height);
   color: var(--black);
-  line-height: 2.5rem;
   margin: 2rem 0rem 2rem 0rem;
   /* text-decoration: underline var(--green-highlight); */
   /* border-left: 1rem var(--green-highlight) solid ; */
