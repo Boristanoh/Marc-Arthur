@@ -1,10 +1,16 @@
+.conteneur__navigation__bloc{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
 .navigation__bloc{
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    width: 100%;
-    overflow: hidden;
+    overflow-x: auto;
 }
 
 .navigation__bloc h3{
