@@ -137,8 +137,8 @@ h1 {
     padding: 1rem 5rem;
    
     margin: 2rem 1rem 0 0rem;
-    width: 40rem;
-    /* width: 80%; */
+    /* width: 40rem; */
+    width: 80%;
     text-align: center;
     /* background:linear-gradient(to bottom left,rgb(0, 141, 54), #00da49); */
     animation: apparait2 1s ease-in-out 50ms both;
@@ -161,7 +161,7 @@ h1 {
   h1{
     
       padding: 1rem 1rem;
-      width: 30rem;
+      /* width: 30rem; */
   }
 }
 
